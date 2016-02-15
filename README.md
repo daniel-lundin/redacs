@@ -4,7 +4,7 @@ Experimental project to see what happens with redux if reducers and actions are 
 
 
 ## Why?
-Redux is great for complex application. When writing simpler application though, I've found that there is often a one-to-one relationship between actions and reducers. This is an experiment to see what happens if we combine them into reducer actions.
+Redux is great for complex application. When writing simpler applications though, I've found that there is often a one-to-one relationship between actions and reducers. This is an experiment to see what happens if we combine them into reducer actions.
 
 
 Also, the name is quite funny.
@@ -31,4 +31,4 @@ store.dispatch(addTodo);
 ```
 
 
-The interface for the store is the same as for redux so it should work with redux-react example.
+The interface for the store is the same as for redux so it should work with redux-react for example.
