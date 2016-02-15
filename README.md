@@ -26,7 +26,7 @@ function addTodo(id, description, completed) {
   }
 }
 
-store.dispatch(addTodo);
+store.dispatch(addTodo(1, 'a new todo', false));
 
 ```
 
