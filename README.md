@@ -2,18 +2,21 @@
 
 Experimental project to see what happens with redux if reducers and actions are combined into reducer actions.
 
+```npm install redacs```
+
 
 ## Why?
 Redux is great for complex application. When writing simpler applications though, I've found that there is often a one-to-one relationship between actions and reducers. This is an experiment to see what happens if we combine them into reducer actions.
-
 
 Also, the name is quite funny.
 
 ## Example
 
-This is a simple reducer action that adds a todo:
+This is a simple example with a `addTodo` reducer action:
 
 ```js
+import createStore from 'redacs';
+
 const initialState = {
   todos: []
 };
