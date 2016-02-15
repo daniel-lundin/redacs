@@ -1,0 +1,24 @@
+{
+  "name": "redacs",
+  "version": "0.0.0",
+  "description": "experimental redux wannabe with reducers and actions combined",
+  "main": "build/redacs.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --reporter min --require ./tests/test-setup.js 'tests/**-tests.js'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [
+    "flux",
+    "redux"
+  ],
+  "author": "d-dog@d-dog.se",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "webpack": "^1.12.13",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}
